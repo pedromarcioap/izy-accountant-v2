@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Servidor backend para categorização de despesas com OpenRouter AI.",
+  "description": "Servidor backend para categorização de despesas com OpenRouter AI e MongoDB Atlas.",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -15,7 +15,9 @@
     "openrouter",
     "ai",
     "categorization",
-    "expenses"
+    "expenses",
+    "mongodb",
+    "atlas"
   ],
   "author": "Seu Nome",
   "license": "ISC",
@@ -23,6 +25,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mongodb": "^6.8.0",
     "node-fetch": "^3.3.2"
   }
 }
