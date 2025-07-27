@@ -1,0 +1,3 @@
+import supabaseAuth from './routes/supabaseAuth';
+...
+app.use('/api', supabaseAuth);
